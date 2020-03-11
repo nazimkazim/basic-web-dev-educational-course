@@ -1,0 +1,15 @@
+#color {
+  background-color: blue;
+}
+
+.lesson-plate {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-height: 70px;
+  background-color: green;
+}
+
+.container-aligned {
+  display: flex;
+}
