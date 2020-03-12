@@ -10,6 +10,64 @@
   background-color: green;
 }
 
+.lesson-plate-title {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  width: 100%;
+}
+
+.lesson-plate-number {
+  padding: 5px;
+  min-width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-right-width: 1px;
+  border-right-color: white;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
 .container-aligned {
   display: flex;
+  align-items: center;
+}
+
+.lesson-plate-grammar {
+  min-width: 100px;
+  border-right-width: 1px;
+  border-right-color: white;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  color: white;
+  font-weight: bold;
+  background-color: tomato;
+}
+
+.lesson-plate-cando {
+  min-width: 100px;
+  border-right-width: 1px;
+  border-right-color: white;
+  border-right-style: solid;
+  color: white;
+  font-weight: bold;
+  background-color: tomato;
+}
+
+.lesson-plate-desc {
+  background-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  color: black;
+  width: 100%;
 }
